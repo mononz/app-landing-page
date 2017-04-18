@@ -3,8 +3,8 @@
     padding: 0;
 }
 body {
-    background-image: url("../images/paragon4.jpg");
-    background-color: rgba(18, 18, 18, .75);
+    background-image: url("../images/background.jpg");
+    background-color: rgba(18, 18, 18, .33);
     background-blend-mode: darken;
 
 }
@@ -40,17 +40,6 @@ p {
     height: 0px;
     margin: 0px;
 }
-<<<<<<< HEAD
-=======
-.header {
-    background: url(../images/paragon4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.header .section_overlay {
-    background-color: rgba(18, 18, 18, .33);
-}
->>>>>>> master
 .logo{
     padding-bottom: 50px;
 }

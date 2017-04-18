@@ -33,7 +33,7 @@ p {
     background-repeat: no-repeat;
 }
 .header .section_overlay {
-    background-color: rgba(18, 18, 18, .75);
+    background-color: rgba(18, 18, 18, .33);
 }
 .logo{
     padding-bottom: 50px;

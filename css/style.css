@@ -3,10 +3,9 @@
     padding: 0;
 }
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("https://paragon.mononz.net/static/landing/background.jpg");
     background-color: rgba(18, 18, 18, .33);
     background-blend-mode: darken;
-
 }
 p {
     font-family: 'Raleway', sans-serif;

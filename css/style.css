@@ -1,0 +1,122 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+/*---------------------------------------
+   COMMON STYLES
+-----------------------------------------*/
+.parallax {
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*---------------------------------------
+   SECTION HOME
+-----------------------------------------*/
+.header h2 {
+    height: 0px;
+    margin: 0px;
+}
+.header {
+    background: url(../images/paragon4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .section_overlay {
+    background-color: rgba(18, 18, 18, .75);
+}
+.logo{
+    padding-bottom: 50px;
+}
+.home_text{
+    text-align: left;
+}
+.home-iphone{
+    text-align: right;
+}
+.home-iphone img{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .home-iphone{
+        display: none;
+    }
+    .home_text{
+        text-align: center;
+    }
+
+}
+.home_text h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px
+}
+.home_text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+.download-btn {
+    margin-top: 90px;
+    margin-bottom: 50px
+}
+.home-btn,
+.home-btn:focus,
+.home-btn:active,
+.home-btn:visited {
+    background: transparent;
+    border-color: #f39c12;
+    color: #f39c12;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.home-btn:hover {
+    background-color: #f39c12;
+    color: #fff;
+}
+.tuor,
+.tuor:focus {
+    color: #A9ADB0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    background: transparent;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.tuor:hover {
+    color: #fff;
+}
+.tuor i {
+    font-size: 20px;
+    padding-left: 5px;
+    color: #f39c12;
+}

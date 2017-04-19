@@ -105,23 +105,29 @@ section header .logo {
 
 @media (min-width: 768px) {
 
+  section {
+    max-width: 1000px;
+    margin: 8% auto;
+  }
+
   section header {
     padding-bottom: 25px;
+    float: left;
+    width: 60%;
   }
 
   .content {
     width: 60%;
     float: left;
-    padding: 150px 0;
   }
 
   .app-preview {
     width: 40%;
-    height: 100%;
-    float: right;
-    position: relative;
-    top: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
     left: auto;
+    right: 0;
   }
 
   .app-preview:after {

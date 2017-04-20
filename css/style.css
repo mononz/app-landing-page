@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  background-color: black;
   background-image: url('https://paragon.mononz.net/static/landing/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +118,9 @@ section header .logo {
 .app-preview img {
   max-height: 500px;
   display: inline;
-  animation: 0.8s ease-out 0s 1 raisePhone;
+  opacity: 0;
+  animation: 0.8s ease-out 0.5s 1 raisePhone;
+  animation-fill-mode:forwards;
 }
 
 @media (min-height: 715px) and (max-width: 767px) {
